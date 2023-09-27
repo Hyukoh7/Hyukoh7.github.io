@@ -6,6 +6,12 @@
     "category_item": "baseLearnItem",
     "item_children": [
       {
+        "child_name": "Hulkye's 前端笔记本",
+        "img_src": "./img/Hulkye.png",
+        "a_href": "https://hulkye.github.io/Docs/",
+        "child_desc": "个人的前端学习笔记本,记录些许"
+      },
+      {
         "child_name": "Mozilla 开发者网络",
         "img_src": "./img/mozilla.jpg",
         "a_href": "https://developer.mozilla.org/zh-CN/",
@@ -16,6 +22,18 @@
         "img_src": "./img/freecodecamp.png",
         "a_href": "https://www.freecodecamp.cn/",
         "child_desc": " 一个帮助你学习编程的开源社区,开启你的软件工程师生涯."
+      },
+      {
+        "child_name": "学习CSS布局",
+        "img_src": "./img/learnlayout.png",
+        "a_href": "http://zh.learnlayout.com/",
+        "child_desc": "本站教授的是现在广泛使用于网站布局领域的CSS基础。"
+      },
+      {
+        "child_name": "WEB开发基础 — 优设网",
+        "img_src": "./img/uisdc.png",
+        "a_href": "http://wf.uisdc.com/cn/",
+        "child_desc": "网站开发基础知识，最佳实践手册。是由谷歌发布的一个简单易懂的多设备网络开发指南。"
       },
       {
         "child_name": "菜鸟教程",
@@ -30,16 +48,58 @@
         "child_desc": "w3school 在线教程 , 全球最大的中文 Web 技术教程。"
       },
       {
+        "child_name": "百度前端技术学院",
+        "img_src": "./img/ifebaidu.png",
+        "a_href": "http://ife.baidu.com/",
+        "child_desc": "百度前端技术学院是一个为大学生创办的免费的前端技术实践、分享、交平台。"
+      },
+      {
         "child_name": "W3-Help",
         "img_src": "./img/w3help.png",
         "a_href": "http://www.w3help.org/zh-cn/kb",
         "child_desc": "系统的介绍某些知识点，帮助开发者正确理解该知识点的概念及与其他知识点的关联性，梳理知识体系。"
       },
       {
+        "child_name": "前端开发者手册",
+        "img_src": "./img/frontenddevhandbook.png",
+        "a_href": "https://dwqs.gitbooks.io/frontenddevhandbook/content/",
+        "child_desc": "这是任何人都可以用来学习前端的实践手册, 它概述并讨论了前端工程的实践。"
+      },
+      {
+        "child_name": "前端笔记本",
+        "img_src": "./img/frontend-notebook.png",
+        "a_href": "https://li-xinyang.gitbooks.io/frontend-notebook/content/?q=",
+        "child_desc": "《前端笔记本》涵盖了 Web 前端开发所需的全部基本知识以及所对应的学习路径。"
+      },
+      {
         "child_name": "表严肃-不要水，讲干货",
         "img_src": "./img/biaoyansu.png",
         "a_href": "http://biaoyansu.com/",
         "child_desc": "基础教程视频,B站良心up主,满满的干货."
+      },
+      {
+        "child_name": "scriptoj",
+        "img_src": "./img/scriptoj.png",
+        "a_href": "http://scriptoj.mangojuice.top/",
+        "child_desc": "国人开发的前端题库，可以用作评测系统，带有讨论区"
+      },
+      {
+        "child_name": "如何跟上前端开发的最新前沿",
+        "img_src": "./img/frontendrescue.png",
+        "a_href": "https://uptodate.frontendrescue.org/zh/",
+        "child_desc": "如何跟上前端开发的最新前沿 前端开发 - The Recipe"
+      },
+      {
+        "child_name": "HEAD",
+        "img_src": "./img/head.png",
+        "a_href": "https://github.com/joshbuchea/HEAD",
+        "child_desc": "最全的 head 列表，真心佩服这种偏执的整理能力"
+      },
+      {
+        "child_name": "前端开发仓库",
+        "img_src": "./img/ciaoca.png",
+        "a_href": "http://code.ciaoca.com/",
+        "child_desc": "Web前端开发仓库，收录常用的JavaScript及jQuery插件，并提供在线演示效果。"
       },
       {
         "child_name": "learnGitBranching",
@@ -52,6 +112,12 @@
         "img_src": "./img/bestcbooks.png",
         "a_href": "http://bestcbooks.com/",
         "child_desc": "Best Computer Books, 整理最全最经典的计算机书籍,提供PDF下载"
+      },
+      {
+        "child_name": "前端九部-入门者手册2019",
+        "img_src": "./img/fe9.png",
+        "a_href": "https://www.yuque.com/fe9/basic",
+        "child_desc": "九部成员合著的web前端开发零基础入门手册"
       },
       {
         "child_name": "力扣-LeetCode",
@@ -72,10 +138,102 @@
         "child_desc": "技术胖,该站有很多免费的前端学习视频"
       },
       {
+        "child_name": "前端周刊",
+        "img_src": "./img/frontenddevhandbook.png",
+        "a_href": "https://frontend-weekly.com/",
+        "child_desc": "前端周刊，给前端同学准备的每周1小时阅读清单"
+      },
+      {
         "child_name": "Git的奇技淫巧",
         "img_src": "./img/frontend-notebook.png",
         "a_href": "https://github.com/521xueweihan/git-tips",
         "child_desc": "列举了常用的 Git 命令和一些小技巧"
+      }
+    ]
+  },
+  {
+    "Category_id": "apiDoc",
+    "category_CN": "文档API",
+    "category_icon": "icon-icon_bangzhuwendang",
+    "category_item": "apiDocItem",
+    "item_children": [
+      {
+        "child_name": "HTML5",
+        "img_src": "./img/w3HTML5.png",
+        "a_href": "https://www.w3.org/html/ig/zh/wiki/HTML5",
+        "child_desc": "HTML5开发文档,开源(w3c组织)"
+      },
+      {
+        "child_name": "HTML5 + API",
+        "img_src": "./img/html5plus.png",
+        "a_href": "http://www.html5plus.org/doc/h5p.html",
+        "child_desc": "HTML5+规范,HTML5中国产业联盟"
+      },
+      {
+        "child_name": "CSS参考手册",
+        "img_src": "./img/doyoe.png",
+        "a_href": "http://css.doyoe.com/",
+        "child_desc": "Web前端开发人员提供最新、最全的CSS中文版在线资料，涵盖CSS3参考手册。"
+      },
+      {
+        "child_name": "NEC(CSS规范)",
+        "img_src": "./img/netease.png",
+        "a_href": "http://nec.netease.com/",
+        "child_desc": "NEC包括了规范、框架、代码库、插件等内容，致力于为前端开发人员提供高效率高质量的前端页面开发解决方案。"
+      },
+      {
+        "child_name": "jQuery API 中文文档",
+        "img_src": "./img/cuishifeng.jpg",
+        "a_href": "http://jquery.cuishifeng.cn/index.html",
+        "child_desc": "jQuery API 中文文档 | jQuery API 中文在线手册 | jquery api 载 | jquery api chm"
+      },
+      {
+        "child_name": "vue.js中文文档",
+        "img_src": "./img/vuejs.png",
+        "a_href": "https://cn.vuejs.org/",
+        "child_desc": "vue.js官方中文文档"
+      },
+      {
+        "child_name": "npm 中文文档",
+        "img_src": "./img/npmjs.png",
+        "a_href": "https://www.npmjs.cn/",
+        "child_desc": "npm 是 JavaScript 世界的包管理工具，并且是 Node.js 平台的默认包管理工具。通过 npm 可以安装、共享、分发代码，管理项目依赖关系。npm，是全球最大的开源库生态系统。"
+      },
+      {
+        "child_name": "Node.js 中文文档",
+        "img_src": "./img/nodeapp.png",
+        "a_href": "https://www.nodeapp.cn/",
+        "child_desc": "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O的模型，使其轻量又高效。Node.js 的包管理器"
+      },
+      {
+        "child_name": "React 中文文档",
+        "img_src": "./img/reactdocschina.png",
+        "a_href": "https://react.docschina.org/",
+        "child_desc": "用于构建用户界面的 JavaScript 库"
+      },
+      {
+        "child_name": "React Native 中文网",
+        "img_src": "./img/reactnative.png",
+        "a_href": "https://reactnative.cn/",
+        "child_desc": "使用JavaScript和React编写原生移动应用"
+      },
+      {
+        "child_name": "Node.js 中文网API",
+        "img_src": "./img/nodeapp.png",
+        "a_href": "http://nodejs.cn/api/",
+        "child_desc": "nodejs中文网中文文档"
+      },
+      {
+        "child_name": "Flutter",
+        "img_src": "./img/flutter.png",
+        "a_href": "https://flutterchina.club/",
+        "child_desc": "Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。"
+      },
+      {
+        "child_name": "html5 Platform",
+        "img_src": "./img/platform.png",
+        "a_href": "https://platform.html5.org/",
+        "child_desc": "HTML5的web浏览技术图谱"
       }
     ]
   },
@@ -176,6 +334,18 @@
         "child_desc": "引领web前沿，打造前端精品教程"
       },
       {
+        "child_name": "HTML5梦工场",
+        "img_src": "./img/html5dw.png",
+        "a_href": "http://www.html5dw.com/",
+        "child_desc": "HTML5梦工场是中国最大的前端开发者社区"
+      },
+      {
+        "child_name": "大前端",
+        "img_src": "./img/daqianduan.png",
+        "a_href": "http://www.daqianduan.com/",
+        "child_desc": "大前端是一个关注前端开发、用户体验设计、HTML5、CSS3、Javascript的前端开发独立博客。"
+      },
+      {
         "child_name": "开源中国",
         "img_src": "./img/oschina.png",
         "a_href": "https://www.oschina.net/",
@@ -188,11 +358,35 @@
         "child_desc": "Web前端学习之路，网站提供很丰富的相关技术中文文档。"
       },
       {
+        "child_name": "WEB前端开发(css88)",
+        "img_src": "./img/css88.png",
+        "a_href": "https://www.css88.com/",
+        "child_desc": "web前端开发，专注前端开发，关注用户体验，关注国内外最新最好的前端开发技术和前端开发资讯的专业博客"
+      },
+      {
+        "child_name": "Awesomes-Web前端开发资源库",
+        "img_src": "./img/awesomes.png",
+        "a_href": "https://www.awesomes.cn/",
+        "child_desc": "Web前端开发工程师需要的免费开源的高质量前端库、框架和插件"
+      },
+      {
+        "child_name": "Helloweba",
+        "img_src": "./img/helloweba.png",
+        "a_href": "https://www.helloweba.net/",
+        "child_desc": "Helloweba为广大WEB开发者提供Javascript前端、PHP后端、服务器运维知识以及业界相关的高质量技术文章分享."
+      },
+      {
         "child_name": "PHP中文网",
         "img_src": "./img/phpcn.png",
         "a_href": "http://www.php.cn/",
         "child_desc": "php中文网-教程_手册_视频-免费php在线学习平台."
       },
+      {
+        "child_name": "前端里",
+        "img_src": "./img/yyyweb.png",
+        "a_href": "http://www.yyyweb.com/",
+        "child_desc": "专注于分享最前沿的Web开发技术，教程，资源和素材，是面向网站开发人员和设计师的学习交流平台"
+      }
     ]
   },
   {
@@ -284,6 +478,716 @@
         "img_src": "./img/docschina.png",
         "a_href": "https://www.docschina.org/",
         "child_desc": "收集了由社区翻译的比较流行的前端相关框架、工具的中文版文档。为学习一些新的框架扫平了语言障碍"
+      }
+    ]
+  },
+  {
+    "Category_id": "framework",
+    "category_CN": "框架类库",
+    "category_icon": "icon-iframetianjia",
+    "category_item": "frameworkItem",
+    "item_children": [
+      {
+        "child_name": "JQuery",
+        "img_src": "./img/jquery.png",
+        "a_href": "http://jquery.com/",
+        "child_desc": "jQuery是一个快速、简洁的JavaScript框架."
+      },
+      {
+        "child_name": "Vue",
+        "img_src": "./img/vuejs.png",
+        "a_href": "https://cn.vuejs.org/",
+        "child_desc": "一套用于构建用户界面的渐进式框架.简单却不失优雅,小巧而不乏大匠"
+      },
+      {
+        "child_name": "React",
+        "img_src": "./img/reactdocschina.jpg",
+        "a_href": "https://react.docschina.org/",
+        "child_desc": "React是一个JavaScript框架,用于构建“可预期的”和“声明式的”Web用户界面."
+      },
+      {
+        "child_name": "Angular",
+        "img_src": "./img/angular.png",
+        "a_href": "https://www.angular.cn/",
+        "child_desc": "一套框架，多种平台移动端 & 桌面端"
+      },
+      {
+        "child_name": "AngularJs",
+        "img_src": "./img/angularjs.jpg",
+        "a_href": "http://www.angularjs.net.cn/",
+        "child_desc": "Google推出的MVVM框架"
+      },
+      {
+        "child_name": "Zepto",
+        "img_src": "./img/Zepto.jpg",
+        "a_href": "https://github.com/madrobby/zepto",
+        "child_desc": "Zepto最初是为移动端开发的库,是jQuery的轻量级替代品"
+      },
+      {
+        "child_name": "Flutter",
+        "img_src": "./img/flutter.png",
+        "a_href": "https://flutter.io/",
+        "child_desc": "Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。"
+      },
+      {
+        "child_name": "Backbone",
+        "img_src": "./img/backbone.jpg",
+        "a_href": "https://github.com/jashkenas/backbone",
+        "child_desc": "一套web开发框架,基于jQuery和underscore的一个前端js框架。"
+      },
+      {
+        "child_name": "Ember.js",
+        "img_src": "./img/ember.jpg",
+        "a_href": "https://www.emberjs.com/",
+        "child_desc": "一个用于创建 web 应用的 JavaScript MVC 框架"
+      },
+      {
+        "child_name": "Preact",
+        "img_src": "./img/preact.png",
+        "a_href": "https://preactjs.com/",
+        "child_desc": "一个快速轻量的 React 替代方案，具有 ES6 API、组件化和虚拟 DOM"
+      },
+      {
+        "child_name": "Egg",
+        "img_src": "./img/eggjs.png",
+        "a_href": "https://eggjs.org/zh-cn/",
+        "child_desc": "一个用于更好地构建企业应用的框架，内置流程管理，高度可定制，有强大的插件系统。"
+      },
+      {
+        "child_name": "KISSY",
+        "img_src": "./img/kissy.png",
+        "a_href": "http://docs.kissyui.com/",
+        "child_desc": "KISSY 是一款跨终端、模块化、高性能、使用简单的 JavaScript 框架。"
+      },
+      {
+        "child_name": "RequireJS",
+        "img_src": "./img/requirejs.png",
+        "a_href": "http://www.requirejs.cn/",
+        "child_desc": "RequireJS是一个非常小巧的JavaScript模块载入框架,是AMD规范最好的实现者之一"
+      },
+      {
+        "child_name": "Sea.js",
+        "img_src": "./img/seajs.png",
+        "a_href": "https://seajs.github.io/seajs/docs/",
+        "child_desc": "SeaJS是一个遵循CMD规范的JavaScript模块加载框架"
+      }
+    ]
+  },
+  {
+    "Category_id": "UIFrame",
+    "category_CN": "UI框架",
+    "category_icon": "icon-ui",
+    "category_item": "UIFrameItem",
+    "item_children": [
+      {
+        "child_name": "Bootstrap",
+        "img_src": "./img/bootcss.jpg",
+        "a_href": "http://www.bootcss.com/",
+        "child_desc": "简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。"
+      },
+      {
+        "child_name": "Foundation",
+        "img_src": "./img/foundation.png",
+        "a_href": "https://foundation.zurb.com/",
+        "child_desc": "一个易用、强大而且灵活的框架,用于构建基于任何设备上的 Web 应用。"
+      },
+      {
+        "child_name": "Pure.css",
+        "img_src": "./img/purecss.png",
+        "a_href": "https://purecss.io/",
+        "child_desc": "雅虎公司出品的一组轻量级、响应式纯css模块,适用于任何Web项目"
+      },
+      {
+        "child_name": "Semantic UI",
+        "img_src": "./img/semanticui.png",
+        "a_href": "https://semantic-ui.com/",
+        "child_desc": "一个用来帮助设计出漂亮的、响应化、人性化的网络框架"
+      },
+      {
+        "child_name": "Material UI",
+        "img_src": "./img/material-ui.png",
+        "a_href": "https://material-ui.com/",
+        "child_desc": "一组反应元件，实现谷歌的材料设计"
+      },
+      {
+        "child_name": "Element",
+        "img_src": "./img/element.png",
+        "a_href": "http://element-cn.eleme.io/#/zh-CN",
+        "child_desc": "一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库"
+      },
+      {
+        "child_name": "iView",
+        "img_src": "./img/iview.png",
+        "a_href": "https://www.iviewui.com/",
+        "child_desc": "一套基于 Vue.js 的高质量 UI 组件库"
+      },
+      {
+        "child_name": "Ant Design",
+        "img_src": "./img/antdesign.png",
+        "a_href": "https://ant.design/index-cn",
+        "child_desc": "蚂蚁金服的开箱即用的中台前端/设计解决方案"
+      },
+      {
+        "child_name": "Layui",
+        "img_src": "./img/layui.jpg",
+        "a_href": "https://www.layui.com/",
+        "child_desc": "一款采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写与组织形式，门槛极低，拿来即用"
+      },
+      {
+        "child_name": "AmazeUI",
+        "img_src": "./img/amazeui.png",
+        "a_href": "http://amazeui.org/",
+        "child_desc": "妹子UI HTML5 跨屏前端框架"
+      },
+      {
+        "child_name": "MetroUI",
+        "img_src": "./img/metroui.png",
+        "a_href": "https://metroui.org.ua/",
+        "child_desc": "好看好用，重点是样式特别、个性"
+      },
+      {
+        "child_name": "QMUI Web",
+        "img_src": "./img/QMUIWeb.png",
+        "a_href": "https://qmuiteam.com/web/page/index.html",
+        "child_desc": "腾讯旗下团队 web UI解决方案"
+      },
+      {
+        "child_name": "MDUI",
+        "img_src": "./img/mdui.png",
+        "a_href": "https://www.mdui.org/",
+        "child_desc": "MDUI 是一套用于开发 Material Design 网页的前端框架"
+      },
+      {
+        "child_name": "Mobi.css",
+        "img_src": "./img/mobicss.png",
+        "a_href": "http://getmobicss.com/",
+        "child_desc": "轻量灵活的移动端 CSS 框架"
+      },
+      {
+        "child_name": "Framework7",
+        "img_src": "./img/framework7.png",
+        "a_href": "http://www.framework7.cn/",
+        "child_desc": "完美的HTML框架,构建精美的iOS & Android 应用"
+      },
+      {
+        "child_name": "PaperCSS",
+        "img_src": "./img/getpapercss.png",
+        "a_href": "https://www.getpapercss.com/",
+        "child_desc": "一个不太常规的CSS框架，如果你希望你的网站有手绘风格感觉，选择它准没错。"
+      },
+      {
+        "child_name": "FlowUI",
+        "img_src": "./img/flowui.png",
+        "a_href": "https://flow-ui.refined-x.com/",
+        "child_desc": "基于Seajs/jQuery构建，内置CSS组件、JS插件、模块化开发体系、自动化开发工具、常见场景解决方案。"
+      }
+    ]
+  },
+  {
+    "Category_id": "JavaScriptAbout",
+    "category_CN": "JavaScript相关",
+    "category_icon": "icon-js",
+    "category_item": "JavaScriptAboutItem",
+    "item_children": [
+      {
+        "child_name": "JavaScript开发者应懂的33个概念",
+        "img_src": "./img/33_js_concepts.png",
+        "a_href": "https://github.com/stephentian/33-js-concepts/blob/master/README.md",
+        "child_desc": "这个项目是为了帮助开发者掌握 JavaScript 概念而创立的。它不是必备，但在未来学习（JavaScript）中，可以作为一篇指南。"
+      },
+      {
+        "child_name": "JavaScript 秘密花园",
+        "img_src": "./img/JavaScript-Garden.png",
+        "a_href": "http://bonsaiden.github.io/JavaScript-Garden/zh/",
+        "child_desc": "JavaScript 细节点分析"
+      },
+      {
+        "child_name": "ECMAScript 6 入门",
+        "img_src": "./img/es6.png",
+        "a_href": "http://es6.ruanyifeng.com/#README",
+        "child_desc": "阮一峰的《ECMAScript 6入门》"
+      },
+      {
+        "child_name": "30 seconds of code",
+        "img_src": "./img/30secondsofcode.png",
+        "a_href": "https://30secondsofcode.org/",
+        "child_desc": "分享了大量有用的Javascript片段,你可以在30秒或更少时间中理解。"
+      },
+      {
+        "child_name": "JS 函数式编程指南",
+        "img_src": "./img/dianzishu.png",
+        "a_href": "https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/",
+        "child_desc": "JS 函数式编程指南 gitbook电子书"
+      },
+      {
+        "child_name": "TypeScript中文网",
+        "img_src": "./img/TypeScriptcn.png",
+        "a_href": "https://www.tslang.cn/",
+        "child_desc": "TypeScript中文网中文文档"
+      },
+      {
+        "child_name": "TypeScript Handbook",
+        "img_src": "./img/dianzishu.png",
+        "a_href": "https://zhongsp.gitbooks.io/typescript-handbook/content/",
+        "child_desc": "TypeScript Handbook（中文版）"
+      }
+    ]
+  },
+  {
+    "Category_id": "cssAbout",
+    "category_CN": "CSS相关",
+    "category_icon": "icon-socialcss3outline",
+    "category_item": "cssAboutItem",
+    "item_children": [
+      {
+        "child_name": "Sass",
+        "img_src": "./img/sasscss.jpg",
+        "a_href": "http://sass.bootcss.com/",
+        "child_desc": "Sass 是成熟、稳定、强大的 CSS 扩展语言。"
+      },
+      {
+        "child_name": "Less",
+        "img_src": "./img/lesscss.png",
+        "a_href": "https://less.bootcss.com/",
+        "child_desc": "给 CSS 加点料,是一门向后兼容的 CSS 扩展语言。"
+      },
+      {
+        "child_name": "Stylus",
+        "img_src": "./img/stylus.png",
+        "a_href": "http://stylus-lang.com/",
+        "child_desc": "富有表现力的、动态的、健壮的CSS"
+      },
+      {
+        "child_name": "Animate.css",
+        "img_src": "./img/animatecss.jpg",
+        "a_href": "https://daneden.github.io/animate.css/",
+        "child_desc": "css内置了很多典型的css3动画,兼容性好使用方便。"
+      },
+      {
+        "child_name": "CSS 选择器演示",
+        "img_src": "./img/css_selecter.png",
+        "a_href": "https://www.haorooms.com/tools/css_selecter/",
+        "child_desc": "本css选择器可以通过本页面直观的理解 CSS 选择器的作用区域"
+      },
+      {
+        "child_name": "浏览器hack大全",
+        "img_src": "./img/browserhacks.png",
+        "a_href": "http://browserhacks.com/",
+        "child_desc": "由于不同的浏览器，对CSS的解析认识不一样，因此会导致生成的页面效果不一样，于是就有了针对不同的浏览器写不同的CSS code，这就叫CSS hack"
+      },
+      {
+        "child_name": "CSS Hack Table",
+        "img_src": "./img/swordaircsstools.png",
+        "a_href": "https://swordair.com/tools/css-hack-table/",
+        "child_desc": "CSS hack 表格"
+      },
+      {
+        "child_name": "LoadersCSS",
+        "img_src": "./img/loaders.png",
+        "a_href": "https://connoratherton.com/loaders",
+        "child_desc": "用 CSS 技术实现 loading 动画"
+      },
+      {
+        "child_name": "text-spinners",
+        "img_src": "./img/text-spinners.png",
+        "a_href": "https://github.com/maxbeier/text-spinners",
+        "child_desc": "又是一款 spinners 效果的库，用来做 loading 正合适。"
+      },
+      {
+        "child_name": "Can I Use",
+        "img_src": "./img/caniuse.png",
+        "a_href": "https://caniuse.com/",
+        "child_desc": "一个检测浏览器对JS、HTML5、CSS、SVG或者其他Web前端相关特性支持程度的列表。"
+      },
+      {
+        "child_name": "A Single Div",
+        "img_src": "./img/asinglediv.png",
+        "a_href": "https://a.singlediv.com/",
+        "child_desc": "纯CSS实现的div图片盒子,很有意思"
+      },
+      {
+        "child_name": "30 Seconds of CSS",
+        "img_src": "./img/30-seconds-of-css.png",
+        "a_href": "https://30-seconds.github.io/30-seconds-of-css/",
+        "child_desc": "收集了常用的CSS代码段,你可以通过30秒或者更少的时间去了解它"
+      },
+      {
+        "child_name": "CSS Inspiration -- CSS灵感",
+        "img_src": "./img/CSS-Inspiration.png",
+        "a_href": "https://chokcoco.github.io/CSS-Inspiration/#/",
+        "child_desc": "学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。"
+      },
+      {
+        "child_name": "CSScomb",
+        "img_src": "./img/csscomb.png",
+        "a_href": "http://csscomb.com/",
+        "child_desc": "一个超棒的CSS属性排序工具"
+      },
+      {
+        "child_name": "Button Generator",
+        "img_src": "./img/ButtonGenerator.png",
+        "a_href": "https://www.bestcssbuttongenerator.com/",
+        "child_desc": "提供各种按钮的CSS代码，你可以从预设的按钮中选择并使用模板用于自己的设计"
+      },
+      {
+        "child_name": "EnjoyCSS",
+        "img_src": "./img/enjoycss.png",
+        "a_href": "https://enjoycss.com/",
+        "child_desc": "一个完整的代码生成器，可以自定义输入域或CSS3按钮"
+      },
+      {
+        "child_name": "Animista",
+        "img_src": "./img/animista.png",
+        "a_href": "http://animista.net/",
+        "child_desc": "CSS动态效果样式在线自定义"
+      },
+      {
+        "child_name": "AniCollection",
+        "img_src": "./img/anicollection.png",
+        "a_href": "http://anicollection.github.io/#/",
+        "child_desc": "CSS3动效预设收藏集合"
+      },
+      {
+        "child_name": "CSS Generator Tool",
+        "img_src": "./img/cssgenerator.png",
+        "a_href": "https://cssgenerator.org/",
+        "child_desc": "CSS各种对象样式和效果在线生成工具"
+      },
+      {
+        "child_name": "Ceaser",
+        "img_src": "./img/ceaser.png",
+        "a_href": "https://matthewlein.com/tools/ceaser",
+        "child_desc": "CSS贝塞尔动画在线调试工具"
+      },
+      {
+        "child_name": "CSS Gradient Generator",
+        "img_src": "./img/gradient-editor.png",
+        "a_href": "http://www.colorzilla.com/gradient-editor/",
+        "child_desc": "CSS渐变在线生成器"
+      },
+      {
+        "child_name": "CSS Reference",
+        "img_src": "./img/cssreference.png",
+        "a_href": "https://cssreference.io/",
+        "child_desc": "非常棒的免费的CSS属性指导手册"
+      },
+      {
+        "child_name": "ColorSpark",
+        "img_src": "./img/colorspark.png",
+        "a_href": "https://colorspark.app/",
+        "child_desc": "随机生成好看的颜色、渐变色，可以一键复制 CSS 代码"
+      },
+      {
+        "child_name": "FontSpark",
+        "img_src": "./img/fontspark.png",
+        "a_href": "https://fontspark.app/",
+        "child_desc": "随机字体在线预览，用过都说好。"
+      },
+      {
+        "child_name": "Pixel Art to CSS",
+        "img_src": "./img/pixelartcss.png",
+        "a_href": "https://github.com/jvalen/pixel-art-react",
+        "child_desc": "由React提供的像素艺术动画和绘图Web应用程序"
+      },
+      {
+        "child_name": "Autoprefixer CSS",
+        "img_src": "./img/autoprefixer.png",
+        "a_href": "http://autoprefixer.github.io/",
+        "child_desc": "(在线)autoprefixer是一个postcss插件，用于解析CSS并添加供应商前缀。"
+      }
+    ]
+  },
+  {
+    "Category_id": "codeSource",
+    "category_CN": "代码素材/片段",
+    "category_icon": "icon-daima",
+    "category_item": "codeSourceItem",
+    "item_children": [
+      {
+        "child_name": "microjs",
+        "img_src": "./img/microjs.png",
+        "a_href": "http://microjs.com/#",
+        "child_desc": "迷你前端开发框架和类库资源收集,前端开发工程师必备的网站, 网站收集了各种各样的框架和代码"
+      },
+      {
+        "child_name": "jQuery插件库",
+        "img_src": "./img/jq22.png",
+        "a_href": "http://www.jq22.com/",
+        "child_desc": "致力于收集jQuery插件和提供各种jQuery特效的详细使用方法,在线预览，jQuery插件下载及教程"
+      },
+      {
+        "child_name": "JQuerySchool",
+        "img_src": "./img/jq-school.png",
+        "a_href": "http://www.jq-school.com/",
+        "child_desc": "jqueryschool是国内最大的jquery原创分享社区，专门分享原创jquery插件、jquery工具、jquery特效、html5、css3、jquery教程的网站，分享原创设计，把开发代码封装成插件，最短时间掌握jquery知识。"
+      },
+      {
+        "child_name": "jQuery之家",
+        "img_src": "./img/htmleaf.png",
+        "a_href": "http://www.htmleaf.com/",
+        "child_desc": "搜集和整理各种jQuery插件，jQuery特效，jquery ui，jQuery教程，JS特效，网页特效，以及各种html5，css3动画和效果，为前端开发者提供最全面的网页开发素材。"
+      },
+      {
+        "child_name": "dowebok",
+        "img_src": "./img/dowebok.png",
+        "a_href": "http://www.dowebok.com/",
+        "child_desc": "dowebok意为做好网站，为用户提供代码、素材、特效、教程、模板等建站服务。"
+      },
+      {
+        "child_name": "代码库CocoaChina",
+        "img_src": "./img/cocoachina.png",
+        "a_href": "http://code.cocoachina.com/",
+        "child_desc": "代码频道为您提供代码下载，免费代码，开发代码，代码库，代码大全，iOS代码，代码分享等最新相关代码"
+      },
+      {
+        "child_name": "发现DIV.IO",
+        "img_src": "./img/divio.png",
+        "a_href": "https://div.io/digg",
+        "child_desc": "代码模块/实例分享网站"
+      },
+      {
+        "child_name": "COTLib 代码库",
+        "img_src": "./img/ctolib.png",
+        "a_href": "https://www.ctolib.com/",
+        "child_desc": "JavaScript开发社区 | 码库CTOLib"
+      },
+      {
+        "child_name": "模板之家",
+        "img_src": "./img/cssmoban.png",
+        "a_href": "http://www.cssmoban.com/",
+        "child_desc": "CSS模板之家为你提供大量精品网页模板,企业网站模板,网站模板下载,DIV+CSS模板,网页设计模板,网站后台模板,个人博客模板,上千种免费网页模板下载"
+      },
+      {
+        "child_name": "Html5 Tricks",
+        "img_src": "./img/html5tricks.png",
+        "a_href": "https://www.html5tricks.com/",
+        "child_desc": "很多前端实现的功能，可以在线查看效果，也可以下载源码"
+      },
+      {
+        "child_name": "codemyui",
+        "img_src": "./img/codemyui.png",
+        "a_href": "https://codemyui.com/",
+        "child_desc": "采集有趣的网站UI代码片段"
+      },
+      {
+        "child_name": "PlainJS",
+        "img_src": "./img/plainjs.png",
+        "a_href": "https://plainjs.com/",
+        "child_desc": "该仓库都是用原生js写的插件和组件，很实用"
+      },
+      {
+        "child_name": "Snippets",
+        "img_src": "./img/snippets.png",
+        "a_href": "http://snippets.barretlee.com/#!/snippets",
+        "child_desc": "小胡子哥的代码收藏夹，Snippets 管理工具"
+      }
+    ]
+  },
+  {
+    "Category_id": "templatePlug",
+    "category_CN": "模板插件",
+    "category_icon": "icon-chajian2",
+    "category_item": "templatePlugItem",
+    "item_children": [
+      {
+        "child_name": "Swiper",
+        "img_src": "./img/swiper.png",
+        "a_href": "https://www.swiper.com.cn/",
+        "child_desc": "目前应用较广泛的移动端网页触摸内容滑动js插件"
+      },
+      {
+        "child_name": "art-template",
+        "img_src": "./img/art-template.png",
+        "a_href": "https://github.com/aui/art-template",
+        "child_desc": "一个简约、超快的模板引擎。它采用作用域预声明的技术来优化模板渲染速度，从而获得接近 JavaScript 极限的运行性能，并且同时支持 NodeJS 和浏览器。"
+      },
+      {
+        "child_name": "iScroll",
+        "img_src": "./img/iScroll.png",
+        "a_href": "https://github.com/cubiq/iscroll",
+        "child_desc": "一个高性能，资源占用少，无依赖，多平台的javascript滚动插件"
+      },
+      {
+        "child_name": "fullPage.js",
+        "img_src": "./img/fullPage.png",
+        "a_href": "https://alvarotrigo.com/fullPage/zh/",
+        "child_desc": "一个基于 jQuery 的插件,它能够很方便、很轻松的制作出全屏网站。"
+      },
+      {
+        "child_name": "Layer弹窗",
+        "img_src": "./img/layui.png",
+        "a_href": "http://layer.layui.com/",
+        "child_desc": "一个让你想到即可做到的web弹窗/层解决方案。"
+      },
+      {
+        "child_name": "Hint.css",
+        "img_src": "./img/kushagragour.png",
+        "a_href": "https://kushagragour.in/lab/hint/",
+        "child_desc": "一款非常小巧的提示框效果插件。"
+      },
+      {
+        "child_name": "Lightbox",
+        "img_src": "./img/lightbox.png",
+        "a_href": "https://lokeshdhakar.com/projects/lightbox2/",
+        "child_desc": "以弹框形式集中展示图片的JavaScript库。"
+      },
+      {
+        "child_name": "Siema",
+        "img_src": "./img/siema.jpg",
+        "a_href": "https://pawelgrzybek.github.io/siema/",
+        "child_desc": "轻量级简单的纯 JavaScript 轮播插件，支持触摸手势"
+      },
+      {
+        "child_name": "Datatables",
+        "img_src": "./img/datatables.jpg",
+        "a_href": "http://datatables.club/",
+        "child_desc": "Datatables是一款jquery表格插件，它是一个高度灵活的工具，可以将任何HTML表格添加高级的交互功能。"
+      },
+      {
+        "child_name": "Waterfall",
+        "img_src": "./img/waterfall.jpg",
+        "a_href": "http://wlog.cn/waterfall/index-zh.html",
+        "child_desc": "一款仿Pinterest网站的响应式无限动态加载图片瀑布流特效jQuery插件"
+      },
+      {
+        "child_name": "Sticker.js",
+        "img_src": "./img/stickerjs.jpg",
+        "a_href": "http://stickerjs.cmiscm.com/",
+        "child_desc": "一款仿贴纸效果插件。"
+      },
+      {
+        "child_name": "multiScroll.js",
+        "img_src": "./img/multiScroll.jpg",
+        "a_href": "https://alvarotrigo.com/multiScroll/#first",
+        "child_desc": "创建分割的多滚动页面特效插件。"
+      },
+      {
+        "child_name": "Sortable",
+        "img_src": "./img/Sortable.jpg",
+        "a_href": "http://rubaxa.github.io/Sortable/",
+        "child_desc": "一个简约的 JavaScript 库用于在现代浏览器中拖放列表重新排序 ，支持任何JS框架。"
+      },
+      {
+        "child_name": "jQuery File Upload Plugin",
+        "img_src": "./img/jQuery-File-Upload.png",
+        "a_href": "https://blueimp.github.io/jQuery-File-Upload/",
+        "child_desc": "一个有功能强大的 jQuery 上传组件，支持多文件选择、拖拽上传、验证、图片和多媒体预览等功能。"
+      },
+      {
+        "child_name": "Interact.js",
+        "img_src": "./img/interactjs.png",
+        "a_href": "http://interactjs.io/",
+        "child_desc": " interact.js是一个随意改变形状插件，,它非常强大的，灵活拖放，改变大小，支持现代浏览器的多点触摸手势，基于SVG的运用，能运行在包括在IE8+的浏览器"
+      },
+      {
+        "child_name": "Background-blur",
+        "img_src": "./img/background-blur.jpg",
+        "a_href": "https://msurguy.github.io/background-blur/#",
+        "child_desc": "实用的超轻的跨浏览器的图像模糊 jQuery 插件，基于 SVG 生成，效果很好"
+      },
+      {
+        "child_name": "blur-admin",
+        "img_src": "./img/blur-admin.png",
+        "a_href": "https://github.com/akveo/blur-admin",
+        "child_desc": "视觉冲击极强的管理后台，各种动画效果。"
+      },
+      {
+        "child_name": "Holder.js",
+        "img_src": "./img/holderjs.png",
+        "a_href": "https://github.com/imsky/holder",
+        "child_desc": "占位图片生成器"
+      },
+      {
+        "child_name": "placeholder.js",
+        "img_src": "./img/placeholder.png",
+        "a_href": "https://github.com/hustcc/placeholder.js",
+        "child_desc": "另一款占位图片生成器"
+      },
+      {
+        "child_name": "Echo.js",
+        "img_src": "./img/echojs.png",
+        "a_href": "https://github.com/toddmotto/echo",
+        "child_desc": "简单的JavaScript轻量级图像延迟加载库"
+      },
+      {
+        "child_name": "jQuery-LazyLoad",
+        "img_src": "./img/jquery_lazyload.png",
+        "a_href": "https://github.com/tuupola/jquery_lazyload/",
+        "child_desc": "基于 jQuery 的图片延迟加载插件，在用户滚动页面到图片之后才进行加载。对于有较多的图片的网页，使用图片延迟加载，能有效的提高页面加载速度"
+      },
+      {
+        "child_name": "Picdiet.js",
+        "img_src": "./img/picdiet.png",
+        "a_href": "https://widget.picdiet.com/",
+        "child_desc": "下一代js图片上传组件,节约服务器80%的带宽及硬盘容量，加快网站加载速度，降低服务器处理图片的负荷"
+      },
+      {
+        "child_name": "imagesLoaded",
+        "img_src": "./img/imagesloaded.png",
+        "a_href": "https://github.com/desandro/imagesloaded",
+        "child_desc": "检测图片是否加载完成的插件"
+      },
+      {
+        "child_name": "quicklink",
+        "img_src": "./img/quicklink.png",
+        "a_href": "https://github.com/GoogleChromeLabs/quicklink",
+        "child_desc": "quicklink 是一个通过预加载资源来提升后续方案速度的轻量级工具库。旨在提升浏览过程中，用户访问后续页面时的加载速度。"
+      },
+      {
+        "child_name": "AJAX-Cache",
+        "img_src": "./img/ajax-cache.png",
+        "a_href": "https://github.com/tower1229/AJAX-Cache",
+        "child_desc": "AJAX-Cache是一款jQuery插件，基于localStorage/sessionStorage实现异步请求缓存功能，并提供“快照”和“定时”两种缓存模式。"
+      }
+    ]
+  },
+  {
+    "Category_id": "graphical",
+    "category_CN": "可视化",
+    "category_icon": "icon-tubiao",
+    "category_item": "graphicalItem",
+    "item_children": [
+      {
+        "child_name": "D3.js",
+        "img_src": "./img/d3js.png",
+        "a_href": "https://d3js.org/",
+        "child_desc": "用动态图形显示数据的JavaScript库"
+      },
+      {
+        "child_name": "Echarts",
+        "img_src": "./img/echarts.png",
+        "a_href": "http://echarts.baidu.com/",
+        "child_desc": "百度开发的可定制的数据可视化图表"
+      },
+      {
+        "child_name": "three.js",
+        "img_src": "./img/threejs.png",
+        "a_href": "https://threejs.org/",
+        "child_desc": "three.js是JavaScript编写的WebGL第三方库。提供了非常多的3D显示功能"
+      },
+      {
+        "child_name": "Highcharts",
+        "img_src": "./img/hcharts.png",
+        "a_href": "https://www.highcharts.com.cn/",
+        "child_desc": "Highcharts 是一个用纯JavaScript编写的一个图表库，兼容IE6+"
+      },
+      {
+        "child_name": "AntV",
+        "img_src": "./img/antv.png",
+        "a_href": "https://antv.alipay.com/",
+        "child_desc": "蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。"
+      },
+      {
+        "child_name": "Chart.js",
+        "img_src": "./img/chartjs.png",
+        "a_href": "https://www.chartjs.org/",
+        "child_desc": "一个简单、面向对象，为设计和开发者准备的图表绘制工具库"
+      },
+      {
+        "child_name": "Leaflet",
+        "img_src": "./img/leafletjs.png",
+        "a_href": "https://leafletjs.com/",
+        "child_desc": "一个用于移动端渲染交互式地图开源JavaScript库"
       }
     ]
   },
@@ -700,6 +1604,176 @@
         "img_src": "./img/wallroom.png",
         "a_href": "https://wallroom.io/",
         "child_desc": "精美壁纸网站,壁纸分为了1K、2K、4K、5K、8K"
+      }
+    ]
+  },
+  {
+    "Category_id": "vueEcology",
+    "category_CN": "Vue生态",
+    "category_icon": "icon-vuejs1",
+    "category_item": "vueEcologyItem",
+    "item_children": [
+      {
+        "child_name": "Vue",
+        "img_src": "./img/vuejs.png",
+        "a_href": "https://cn.vuejs.org/",
+        "child_desc": "一套用于构建用户界面的渐进式框架.简单却不失优雅,小巧而不乏大匠"
+      },
+      {
+        "child_name": "Vue Router",
+        "img_src": "./img/vuejs.png",
+        "a_href": "https://router.vuejs.org/zh/",
+        "child_desc": "Vue Router官方中文文档"
+      },
+      {
+        "child_name": "Vuex",
+        "img_src": "./img/Vuex.png",
+        "a_href": "https://vuex.vuejs.org/zh/",
+        "child_desc": "Vuex官方中文文档"
+      },
+      {
+        "child_name": "Vue CLI",
+        "img_src": "./img/vuejs.png",
+        "a_href": "https://cli.vuejs.org/zh/",
+        "child_desc": "Vue.js 官方脚手架工具"
+      },
+      {
+        "child_name": "awesome-vue",
+        "img_src": "./img/awesome-vue.png",
+        "a_href": "https://github.com/vuejs/awesome-vue",
+        "child_desc": "(vue资源汇总)与Vue.js相关的精彩内容和精选列表"
+      },
+      {
+        "child_name": "awesome-github-vue",
+        "img_src": "./img/awesome-github-vue.png",
+        "a_href": "https://github.com/opendigg/awesome-github-vue",
+        "child_desc": "Vue相关开源项目库汇总(中文)"
+      },
+      {
+        "child_name": "ElementUI",
+        "img_src": "./img/element.png",
+        "a_href": "http://element-cn.eleme.io/#/zh-CN",
+        "child_desc": "Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库"
+      },
+      {
+        "child_name": "Ant Design Vue",
+        "img_src": "./img/ant-design-vue.png",
+        "a_href": "https://vue.ant.design/docs/vue/introduce-cn/",
+        "child_desc": "Ant Design 的 Vue 实现，开发和服务于企业级后台产品。"
+      },
+      {
+        "child_name": "vant",
+        "img_src": "./img/vant.png",
+        "a_href": "https://youzan.github.io/vant/#/zh-CN/intro",
+        "child_desc": "有赞团队出品的轻量、可靠的移动端 Vue 组件库"
+      },
+      {
+        "child_name": "cube-ui",
+        "img_src": "./img/cube-ui.png",
+        "a_href": "https://didi.github.io/cube-ui/#/zh-CN",
+        "child_desc": "滴滴团队基于 Vue.js 实现的精致移动端组件库"
+      },
+      {
+        "child_name": "mint-ui",
+        "img_src": "./img/mint-ui.png",
+        "a_href": "http://mint-ui.github.io/#!/zh-cn",
+        "child_desc": "饿了么团队出品的基于 Vue.js 的移动端组件库"
+      },
+      {
+        "child_name": "Vux",
+        "img_src": "./img/vux.png",
+        "a_href": "https://vux.li/#/zh-CN/README",
+        "child_desc": "一个凑合的 Vue.js 移动端 UI 组件库"
+      },
+      {
+        "child_name": "Vuetifyjs",
+        "img_src": "./img/vuetifyjs.png",
+        "a_href": "https://vuetifyjs.com/zh-Hans/",
+        "child_desc": "一个高品质综合实用性、体验、格调的框架"
+      },
+      {
+        "child_name": "Quasar",
+        "img_src": "./img/Quasar.png",
+        "a_href": "https://quasar-framework.org/",
+        "child_desc": "较成熟的组件库，大名鼎鼎，组件丰富到变态~"
+      },
+      {
+        "child_name": "Vuesax",
+        "img_src": "./img/vuesax.png",
+        "a_href": "https://lusaxweb.github.io/vuesax/#/",
+        "child_desc": "有若干常用组件，但有着非常美妙的色彩和反馈效果，充满活力与灵气"
+      },
+      {
+        "child_name": "Vue资源精选",
+        "img_src": "./img/vueawesometiny.png",
+        "a_href": "http://vue.awesometiny.com/",
+        "child_desc": "vue资源精选-前端组件库资源-前端选型"
+      },
+      {
+        "child_name": "Eagle.js",
+        "img_src": "./img/eaglejs.png",
+        "a_href": "https://github.com/Zulko/eagle.js",
+        "child_desc": "一个使用 Vue.js 开发的幻灯片框架"
+      },
+      {
+        "child_name": "Vue-grid-layout",
+        "img_src": "./img/vue-grid-layout.png",
+        "a_href": "https://github.com/jbaysolutions/vue-grid-layout",
+        "child_desc": "Vue.js 可拖动且可调整大小的网格布局"
+      },
+      {
+        "child_name": "vue-content-loader",
+        "img_src": "./img/vue-content-loader.png",
+        "a_href": "https://github.com/egoist/vue-content-loader",
+        "child_desc": "用于创建占位符加载的 SVG 组件，例如 Facebook 卡片加载"
+      },
+      {
+        "child_name": "vue-virtual-scroller",
+        "img_src": "./img/vue-virtual-scroller.png",
+        "a_href": "https://github.com/Akryum/vue-virtual-scroller",
+        "child_desc": "可以平滑滚动任意数量的数据"
+      },
+      {
+        "child_name": "Mand Mobile",
+        "img_src": "./img/mand-mobile.png",
+        "a_href": "https://mand-mobile.github.io/",
+        "child_desc": "面向金融场景的Vue移动端UI组件库"
+      },
+      {
+        "child_name": "Vue-design-system",
+        "img_src": "./img/vueds.png",
+        "a_href": "https://vueds.com/",
+        "child_desc": "一个用于基于 Vue.js 构建 UI 设计系统的开源工具"
+      },
+      {
+        "child_name": "Vue-Access-Control",
+        "img_src": "./img/vueac.png",
+        "a_href": "https://github.com/tower1229/Vue-Access-Control",
+        "child_desc": "一套基于Vue/Vue-Router/axios 实现的前端用户权限控制解决方案"
+      },
+      {
+        "child_name": "Vue-Tree-Chart",
+        "img_src": "./img/vuetc.png",
+        "a_href": "https://github.com/tower1229/Vue-Tree-Chart",
+        "child_desc": "基于Vue2的树形图组件"
+      },
+      {
+        "child_name": "vue-meta-info",
+        "img_src": "./img/vue_meta_info.png",
+        "a_href": "https://github.com/muwoo/vue-meta-info",
+        "child_desc": "vue-meta-info是一个基于vue 2.0的插件，它会让你更好的管理你的app里面的meta信息设置vue，支持SSR"
+      },
+      {
+        "child_name": "vue-simple-uploader",
+        "img_src": "./img/vue_simple_uploader.png",
+        "a_href": "https://github.com/simple-uploader/vue-uploader/blob/master/README_zh-CN.md",
+        "child_desc": "一个基于 simple-uploader.js 的 Vue 上传组件"
+      },
+      {
+        "child_name": "NutUI",
+        "img_src": "./img/nutui.png",
+        "a_href": "http://nutui.jd.com",
+        "child_desc": "一套京东风格的轻量级移动端Vue组件库"
       }
     ]
   },
@@ -1125,6 +2199,50 @@
         "img_src": "./img/firefoxSend.png",
         "a_href": "https://send.firefox.com/",
         "child_desc": "使用 Firefox Send 端到端加密分享文件，链接到期即焚。分享更私密，文件到期真正无痕迹。"
+      }
+    ]
+  },
+  {
+    "Category_id": "conference",
+    "category_CN": "前端大会",
+    "category_icon": "icon-shequjiaozhengju",
+    "category_item": "conferenceItem",
+    "item_children": [
+      {
+        "child_name": "JS 中国开发者大会",
+        "img_src": "./img/jsconfchina.png",
+        "a_href": "https://jsconfchina.com/",
+        "child_desc": "一场专注于JavaScript和Node.js技术的国际性大会"
+      },
+      {
+        "child_name": "中国 CSS 开发者大会",
+        "img_src": "./img/cssw3ctech.png",
+        "a_href": "https://css.w3ctech.com/",
+        "child_desc": "提高css开发姿势的大会。"
+      },
+      {
+        "child_name": "前端圈",
+        "img_src": "./img/fequan.png",
+        "a_href": "https://fequan.com/",
+        "child_desc": "打造专业的前端技术会议"
+      },
+      {
+        "child_name": "D2前端技术论坛",
+        "img_src": "./img/d2forum.png",
+        "a_href": "http://d2forum.alibaba-inc.com/",
+        "child_desc": "阿里巴巴举办，分享技术的乐趣，探讨行业的发展。"
+      },
+      {
+        "child_name": "Vue.js开发者大会",
+        "img_src": "./img/vuew3ctech.png",
+        "a_href": "https://vue.w3ctech.com/",
+        "child_desc": "Vue.js开发者大会 中国站"
+      },
+      {
+        "child_name": "feexp前端体验大会",
+        "img_src": "./img/feexp.png",
+        "a_href": "http://feexp.org/",
+        "child_desc": "创办于2007年的Webrebuild交流组织团体于2015年更名为「前端体验大会」"
       }
     ]
   },
