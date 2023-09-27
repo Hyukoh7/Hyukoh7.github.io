@@ -38,7 +38,8 @@ $(function () {
 
   // ============================数据请求业务==============================
   $.getJSON(
-    'https://raw.githubusercontent.com/Hyukoh7/Hyukoh7.github.io/main/data/db.json',
+    // 'https://raw.githubusercontent.com/Hyukoh7/Hyukoh7.github.io/main/data/db.json',
+      '../data/db.json',
     res => {
       // 页面渲染
       var categoryHTML = template('CategoryId', {
